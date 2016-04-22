@@ -1,0 +1,15 @@
+body {
+    font-family: fantasy;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: underline;
+    color: darkblue;
+    cursor: pointer;
+}

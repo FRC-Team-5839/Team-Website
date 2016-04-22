@@ -1,0 +1,40 @@
+nav > ul{
+    text-align: center;
+    
+    background-color: blue;
+    margin: -10px;
+}
+
+nav > ul > li {
+    
+    display: inline-block;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: bisque;
+}
+
+nav {
+    margin-top: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 10;
+}
+
+@media (max-width: 780px){
+    nav > ul > li{
+        display: block
+    }
+    nav {
+        position: relative;
+    }
+}

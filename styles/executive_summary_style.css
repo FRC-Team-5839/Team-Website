@@ -1,0 +1,89 @@
+
+body{
+    font-family: fantasy;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-delay: 10ms;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 4em;
+}
+
+#team_caption {
+    font-size: 2em;
+    padding-top: 0;
+}
+
+article > div{
+    padding: 0.75vw;
+    width: 90vw;/*over ridden by media */
+    border: 4px dotted blue;
+    overflow: hidden;
+    margin: 1.4vw;
+}
+
+article > div > h2 {
+    transform-origin: left;
+    transform: rotate(-10deg);
+    
+}
+
+.div_content {
+    float: right;
+    width: 70vw;
+    /*adjusted by media queries */
+}
+
+
+
+
+@media (min-width: 780px){
+    #about_us {
+    width: 30vw;
+    float: right;
+    margin-top: -2px;
+    }
+    
+    article > div{
+        width: 60vw;
+    }
+    
+    .div_content{
+        width: 50vw;
+    }
+}
+
+
+.sponsor_card {
+    display: inline-block;
+    padding-right: 20px;
+    border: 1px dotted blue;
+}
+
+.sponsor_platitude {
+    font-size: 0.4em;
+}
+.sponsor_gold {
+    font-size: 0.3em;
+}
+.sponsor_silver {
+    font-size: 0.2em;
+}
+.sponsor_bronze {
+    font-size: 0.1em;
+}
+
+.sponsor_card > .sponsor_logo
+{
+    width: 10em;
+    height: auto;
+}
+
+#sponsors > div > h3{
+    /*change Titles e.g. bronze sponsors directly */
+    font-size: 3em
+}
+
