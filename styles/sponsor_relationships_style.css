@@ -1,5 +1,4 @@
 body {
-    font-family: fantasy;
     padding: 8px;
 }
 
@@ -8,8 +7,3 @@ h1 {
     
 }
 
-a {
-    text-decoration: underline;
-    color: darkblue;
-    cursor: pointer;
-}

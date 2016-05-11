@@ -1,15 +1,10 @@
 
-body{
-    font-family: fantasy;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-delay: 10ms;
-}
+
 
 h1 {
     padding-top: 30px;
     text-align: center;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 #team_caption {
@@ -18,11 +13,12 @@ h1 {
 }
 
 article > div{
-    padding: 0.75vw;
-    width: 90vw;/*over ridden by media */
-    border: 4px dotted blue;
+    padding: 0.75%;
+    width: 90%;/*over ridden by media */
+    border: 4px dotted lightskyblue;
+    
     overflow: hidden;
-    margin: 1.4vw;
+    margin: 1.4%;
 }
 
 article > div > h2 {
@@ -33,7 +29,7 @@ article > div > h2 {
 
 .div_content {
     float: right;
-    width: 70vw;
+    width: 90%;
     /*adjusted by media queries */
 }
 
@@ -41,18 +37,23 @@ article > div > h2 {
 
 
 @media (min-width: 780px){
+    
+    h1{
+        font-size: 4em;
+    }
+    
     #about_us {
-    width: 30vw;
+    width: 30%;
     float: right;
     margin-top: -2px;
     }
     
     article > div{
-        width: 60vw;
+        width: 60%;
     }
     
     .div_content{
-        width: 50vw;
+        width: 70%;
     }
 }
 
@@ -60,7 +61,7 @@ article > div > h2 {
 .sponsor_card {
     display: inline-block;
     padding-right: 20px;
-    border: 1px dotted blue;
+    border: 1px dotted lightskyblue;
 }
 
 .sponsor_platitude {

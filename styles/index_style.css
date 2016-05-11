@@ -1,0 +1,42 @@
+body{
+    /*background-image: url(../images/photos/%E9%98%9F%E4%BC%8D%E5%90%88%E7%85%A7%E6%89%87%E5%BD%A2%E5%9F%BA%E5%9C%B0.png);*/
+}
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
+
+h2 {
+    text-align: center
+}
+
+#heading {
+    margin-top: 10%;
+}
+
+#subheading {
+    color: blue;
+}
+
+.capital {
+    color: blue;
+}
+
+/* links list */
+
+.link_list a{
+    text-decoration: none;
+    color: lightcyan;
+}
+
+.link_list li{
+    
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.link_list ul{
+    padding-left: 0px;
+    list-style-type: none;
+}

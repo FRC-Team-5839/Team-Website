@@ -1,7 +1,7 @@
 nav > ul{
     text-align: center;
     
-    background-color: blue;
+    background-color: lightskyblue;
     margin: -10px;
 }
 
@@ -19,7 +19,7 @@ nav a {
 }
 
 nav a:hover{
-    color: bisque;
+    color: blueviolet;
 }
 
 nav {

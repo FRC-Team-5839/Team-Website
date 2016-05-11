@@ -1,0 +1,11 @@
+html{
+    font-family:Menlo, Arial ;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: underline;
+    color: lightcyan;
+    cursor: pointer;
+}
